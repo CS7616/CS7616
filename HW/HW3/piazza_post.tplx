@@ -1,0 +1,6 @@
+((*- extends 'article.tplx' -*))
+
+% Hide title, date, section with empty maketitle block
+((* block maketitle *))
+\setcounter{secnumdepth}{0}
+((* endblock maketitle *))
